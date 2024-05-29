@@ -19,8 +19,8 @@
           "options": {
             "outputPath": "dist/home-rental",
             "index": "src/index.html",
-            "main": "https://richaparikh15.github.io/main.js/main.ts",
-            "polyfills": "https://richaparikh15.github.io/main.js/polyfills.ts",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "https://richaparikh15.github.io/main.js/styles.less"
+              "src/styles.less"
             ],
             "scripts": []
           },
