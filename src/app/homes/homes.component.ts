@@ -42,6 +42,7 @@ export class HomesComponent implements OnInit {
       'event_category': 'DATE_BUTTON_CLICK',
       'event_label': 'Dates button cliked',
       'value': 'Dates button has been clicked'   })
+      console.log('event called');
   }
 }
 
