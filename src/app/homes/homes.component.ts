@@ -41,7 +41,7 @@ export class HomesComponent implements OnInit {
     gtag('event', 'click', {
       'event_category': 'DATE_BUTTON_CLICK',
       'event_label': 'Dates button cliked',
-      'value': 'Dates button has been clicked'   })
+      'value': 1   })
       console.log('event called');
   }
 }
